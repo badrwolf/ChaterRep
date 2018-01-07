@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_purple"
+    android:minWidth="@android:dimen/dialog_min_width_minor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:minWidth="@android:dimen/dialog_min_width_minor"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/item_news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="left"
+            android:text="NewsTitle"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_news_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="80"
+            android:gravity="right"
+            android:text="23/03:1995" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_news_notificationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:text="TextView"
+        tools:text="@string/AleatoirSentence" />
+</LinearLayout>

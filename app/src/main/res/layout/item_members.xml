@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/btn_login_bg"
+    android:minWidth="@android:dimen/dialog_min_width_minor"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="80"
+        android:background="?android:attr/colorBackground"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/item_members_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@android:color/holo_purple" />
+    </LinearLayout>
+
+    <!-- app:srcCompat="@drawable/ic_person" -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:text="Ecole"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_members_school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:background="@color/white"
+                android:text="@string/AleatoirSentence" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+                android:allowUndo="false"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:text="Nom"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_members_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:background="@color/white"
+                android:text="@string/AleatoirSentence" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+                android:background="@color/white"
+                android:elevation="0dp"
+                android:padding="5dp"
+                android:text="Status"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_members_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:background="@color/white"
+                android:text="@string/AleatoirSentence" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
